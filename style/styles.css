@@ -1,0 +1,151 @@
+#firstpart{
+  background-color: #222831;
+}
+.ftext{
+  color: #fff;
+  font-family: "Inconsolata";
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.fpara{
+  color: #F2AA4CFF;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.fimage{
+  width: 70%;
+  margin: 5% 25%;
+}
+.container-fluid{
+  padding: 3% 10% 6%;
+}
+/* navbar */
+.navbar{
+  padding-bottom: 3rem;
+}
+.navbar-brand{
+  font-family:"Square Peg";
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 10px 55px 10px 0;
+}
+.nav-item:hover{
+  text-decoration: overline;
+}
+.nav-link{
+  color: #fff;
+}
+/* Eduaction */
+#Education{
+   padding : 5% 10% 8%;
+   text-align: center;
+   background-color: #fff;
+   color: #000;
+}
+.etext{
+  text-align: center;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Inconsolata";
+  padding: 5% 0 5% 0;
+  text-decoration: none;
+}
+.ebtn{
+  margin-top: 50%  ;
+}
+.ehead{
+  font-family: "Inconsolata";
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration:overline;
+}
+.timage{
+  width: 75%;
+  height: 75%;
+}
+/* projects */
+#MyProjects{
+  background-color:#222831;
+  padding: 3% 7%;
+  text-align: center;
+}
+.phead{
+  font-family: "Montserrat";
+  font-size: 2rem;
+  color: #F2AA4CFF;
+}
+p{
+  font-family: "Inconsolata";
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.ph{
+  font-size: 3rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #fff;
+  margin:0 0 7% ;
+  text-decoration: underline;
+}
+.ac{
+  padding: 0 10%;
+}
+
+@media (max-width:1028px) {
+  #firstpart{
+    text-align:center;
+  }
+  .fimage{
+    margin: 5% 10%;
+  }
+.timage{
+  width: 100%;
+  height: 100%;
+}
+.ebtn{
+  margin-top: 100%;
+}
+p{
+  text-align: center;
+}
+
+p{
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+}
+/* contacts */
+#contact{
+  text-align: center;
+  padding: 10% 10%;
+}
+.icon{
+  padding: 5% 5%;
+}
+.insta:hover
+{
+color: #fb3958  ;
+}
+.twitter:hover{
+  color: blue;
+}
+.mail:hover{
+  color: red;
+}
+.gh:hover{
+  color:#000;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.foot{
+  color: #000;
+}
